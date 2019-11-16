@@ -125,19 +125,6 @@ def runbot(r, commentslist):
             
             with open ("commentslist.txt", "a") as f:
                 f.write(test.id + "\n")
-                
-        if "that's gay" in test.body and test.id not in commentslist and not test.author == r.user.me():
-            print "replying to comment id" + test.id
-            test.reply("Hey. Don't say that, that is a derogatory term against the LGBTQ+ community. Why not try a better word?")
-            commentslist.append(test.id)
-            
-        if "!LGBTSupport" in test.body and test.id not in commentslist and not test.author == r.user.me():
-            print "replying to comment id" + test.id
-            test.reply("Here are some LGBT support platforms \n Youthline 1-800-268-9688 \n Reddit general support group /r/LGBT \n For the youth! /r/LGBTeens")
-            commentslist.append(test.id)
-            
-            with open ("commentslist.txt", "a") as f:
-                f.write(test.id + "\n")
             
     print "Sleeping for 2 seconds"    
     time.sleep(2)    
