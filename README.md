@@ -2,7 +2,7 @@
 # Equithon 2018 Project
 A Reddit bot that strives to make people happy. Written in python.
 
-# Promotes good mental health. Supports LGBTQ+ members.
+# Promotes good mental health.
 
 In todays world, social media pervades our day to day life. A lot of times, social media can cause stress and anguish towards ones self. With awesomewholesomebot, it exudes positivity throughout social media, and in particular, Reddit! 
 
